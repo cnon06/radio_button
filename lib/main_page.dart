@@ -42,6 +42,7 @@ class _MainPageState extends State<MainPage> {
                 setState(() {});
               })),
           RadioListTile<String>(
+              subtitle: Text("Subtitle"),
               groupValue: city,
               secondary: Icon(Icons.abc),
               title: Text("Tokyo"),
